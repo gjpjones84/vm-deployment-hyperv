@@ -1,0 +1,8 @@
+windows:
+  hosts:
+    hyperVServer:
+      ansible_host: #target ip address
+      ansible_user: #target host user with admin permissions
+      ansible_password: #target host user's password
+      ansible_connection: winrm
+      ansible_winrm_server_cert_validation: ignore
